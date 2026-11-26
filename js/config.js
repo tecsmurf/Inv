@@ -1,11 +1,10 @@
-// 1. Create a free Firebase project (see README.md, step 1-4).
-// 2. Paste YOUR web app config below (Firebase console > Project settings > Your apps).
+// Firebase web config for project "inv-pa".
 // These values are not secret: security comes from firestore.rules.
 export const firebaseConfig = {
-  apiKey: 'PASTE_API_KEY',
-  authDomain: 'PASTE_PROJECT_ID.firebaseapp.com',
-  projectId: 'PASTE_PROJECT_ID',
-  storageBucket: 'PASTE_PROJECT_ID.appspot.com',
-  messagingSenderId: 'PASTE_SENDER_ID',
-  appId: 'PASTE_APP_ID',
+  apiKey: 'AIzaSyBZYnqaqTWbJxkgG4DiY7PWqMj-6wbMwIo',
+  authDomain: 'inv-pa.firebaseapp.com',
+  projectId: 'inv-pa',
+  storageBucket: 'inv-pa.firebasestorage.app',
+  messagingSenderId: '746287200559',
+  appId: '1:746287200559:web:bcc2ae9015297c000949da',
 };
