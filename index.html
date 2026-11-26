@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>दुकान का हिसाब · Shop Hisaab</title>
+  <meta name="description" content="Daily sales book for a shop, shared by up to 5 phones.">
+  <meta name="theme-color" content="#7a2e1d">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand" id="shopTitle">दुकान का हिसाब</div>
+    <span class="sync" id="sync" hidden></span>
+  </header>
+  <main id="main"><p class="center muted">Loading…</p></main>
+  <nav class="tabs" id="tabs" hidden>
+    <button data-view="today"><span>📋</span>आज<small>Today</small></button>
+    <button data-view="udhaar"><span>📒</span>उधार<small>Udhaar</small></button>
+    <button data-view="history"><span>📅</span>हिसाब<small>History</small></button>
+    <button data-view="settings"><span>⚙️</span>सेटिंग<small>Settings</small></button>
+  </nav>
+  <div id="sheet" class="sheet" hidden></div>
+  <div id="toast" class="toast" hidden></div>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
